@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="freelanser ....">
+    <title>Portfolio - Salah</title>
+    <meta name="keywords" content="free, html, css, js, online">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Fontowsome -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="icon" href="img/icons/icon 2.png">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap">
+
+</head>
+<body>
+    <div class="settings">
+        <div class="settings-box">
+            <div class="settings-icon">
+                <img class="icon" src="img/icons/gear_icon.png" alt="">
+            </div>
+            <div class="settings-content">
+                <div class="color-option">
+                    <h4>Choose Color :</h4>
+                    <ul class="color-links">
+                        <li data-color="#6C0345"></li>
+                        <li data-color="#1163ff"></li>
+                        <li data-color="#ff004f"></li>
+                        <li data-color="#FBA834"></li>
+                        <li data-color="#009678"></li>
+                        <li data-color="#e81cff"></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="mood">
+                    <h4>Choose Mood :</h4>
+                    <div class="buttons">
+                        <span onclick="lightMood(this.id)" id="light">Light</span>
+                        <span onclick="lightMood(this.id)" id="dark">Dark</span>
+                    </div>
+                </div>
+        </div>
+    </div>
+<!-- ------------- Header -------- -->
+<div class="header">
+    <div class="logo">
+        <a href="#"><span>S</span>alah.</a> 
+    </div>
+    <img id="nav-icon" src="img/icons/nav_icon.png" alt="">
+    <ul class="links">
+        <img id="close" src="img/icons/close.png" alt="">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#Portofollio">Portofollio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+<!--  --------- Landing-Page ------------ -->
+<div class="landing-page" id="home">
+    <div class="overlay"></div>
+        <div class="text">
+            <h5>Hello There!</h5>
+            <h1>I'm <span>Salah Abdel Jayed</span> </h1>
+            <p>Web Developer and Voice Over content Creator.</p>
+        </div>
+        <div class="img">
+            <img src="img/photo/my_img.png" alt="">
+        </div>
+</div>
+<!-- ------------ About Me ------------ -->
+<div class="about padding-section" id="about">
+    <h2>About Me</h2>
+    <div class="content">
+        <div class="about-img">
+            <img src="img/photo/my_img3.png" alt="">
+            <div class="tab-content active-tab" id="skills">
+                <ul>
+                    <li><span>Front End</span> <br> Everything with which the user interacts.</li>
+                    <li><span>Voice Over</span><br> News and Characters.</li>
+                    <li><span>Sales</span><br> promote and sell products/services using <br>
+                        solid arguments to existing and prospective customers.</li>
+                </ul>
+            </div>
+            <div class="tab-content" id="exprience">
+                <ul>
+                    <li><span>Front End</span> <br> </li>
+                    <li><span>Voice Over</span><br> i have a youtube channel & Work as a freelancer.</li>
+                    <!-- <li><span></span></li> -->
+                </ul>
+            </div>
+            <div class="tab-content" id="education">
+                <ul>
+                    <li><span>2020 - Current</span> <br> Still Student in faculty of commerce at Al-Azhar univercity.</li>
+                    <li><span>2020 - Current</span> <br> business major.</li>
+                    <li><span>Voice Over</span><br> I Work as a freelancer.</li>
+                    <!-- <li><span></span></li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="about-text">
+            <p>
+                dolor, sit amet consectetur adipisicing elit. 
+                Nemo sit consectetur, voluptates illum recusandae quam in eius cumque. 
+                Recusandae unde vero tempora architecto quibusdam eveniet inventore maxime 
+                reprehenderit nulla, omnis laudantium illo similique placeat minima blanditiis 
+                eligendi doloremque odit voluptatem aut alias aspernatur? Repellendus aliquid debitis, 
+                fugit saepe reiciendis repellat unde asperiores autem consequuntur. Molestiae sed vel 
+                quisquam ut. Dolor error fuga officiis dolore vero, quia autem ex dicta culpa praesentium  
+                cupiditate fugiat commodi qui eos, quis veritatis inventore illo?
+                </p>
+                <div class="tab-title">
+                    <span onclick="showTab('skills')" class="tab-links active-link">Skills</span>
+                    <span onclick="showTab('exprience')" class="tab-links ">Exprience</span>
+                    <span onclick="showTab('education')" class="tab-links ">Education</span>
+                </div>
+
+        </div>
+
+    </div>
+</div>
+<!-------------- My Service -------------  -->
+<div class="services padding-section2" id="services">
+    <div class="overlay"></div>
+    <h2>My Services</h2>
+    <div class="content">
+        <div class="my-services">
+            <img src="img/icons/code 2.png" alt="">
+            <br>
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat dolores harum id facere quam ut ipsum neque cum modi ullam!</p>
+        </div>
+        <div class="my-services">
+            <img src="img/icons/voice.png" alt="">
+            <br>
+            <h3>Voice Over</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat dolores harum id facere quam ut ipsum neque cum modi ullam!</p>
+        </div>
+        <div class="my-services">
+            <img src="img/icons/sales.png" alt="">
+            <br>
+            <h3>Sales</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat dolores harum id facere quam ut ipsum neque cum modi ullam!</p>
+        </div>
+    </div>
+</div>
+<!-------------- Portofollio ---------------->
+<div class="portofollio padding-section3" id="Portofollio">
+    <h2>My Work</h2>
+    <div class="work-list">
+        <div class="work">
+            <img class="img-work" src="img/photo/work-1.png">
+            <div class="layer">
+                <h3>Web Projects</h3>
+                <p>they might sound similar, several distinctions lie between the two.</p>
+                <a href="https://salah-2000.github.io/Black-and-White/"><img class="link" src="img/icons/link.png"></a>
+            </div>
+        </div>
+        <div class="work">
+            <img class="img-work" src="img/photo/work-2.jpg" height="435px">
+                        <div class="layer">
+                <h3>Voice over Projects</h3>
+                <p>they might sound similar, several distinctions lie between the two.</p>
+                <a href="https://www.youtube.com/channel/UC76dpu_fCD9N8_Os8cNiVcA"><img class="link" src="img/icons/link.png"></a>
+            </div>
+        </div>
+        <div class="work">
+            <img class="img-work" src="img/photo/work-3.png">
+                        <div class="layer">
+                <h3>Sales Job</h3>
+                <p>I work online with American company, called (FOREVER) just i was sales to Arab people because 
+                    they have branch in Kingdom of Saudi Arabia.</p>
+                <a href="#"><img class="link" src="img/icons/link.png"></a>
+            </div>
+        </div>
+    </div>
+    <button class="learn-more">
+        <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">See More</span>
+    </button>
+</div>
+<!-- ------------- Contact ------------------>
+<div class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="container">
+        <div class="left">
+            <p><img src="img/icons/mail.png"> salahabdeljayed.2003@gmail.com</p>
+            <p><img src="img/icons/phone.png"> 01027337247</p>
+            <div class="social-icon">
+                <a href="#"><img src="img/icons/facebook.png"></a>
+                <a href="#"><img src="img/icons/instagram.png"></a>
+                <a href="#"><img src="img/icons/in.png"></a>
+                <a href="#"><img src="img/icons/github.png"></a>
+            </div>
+                <div class="button" data-tooltip="Size: 20Mb">
+                    <div class="button-wrapper">
+                        <div class="text">Download CV</div>
+                        <span class="down-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17">
+                                </path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="right">
+            <form name="submit-to-google-sheet">
+                <input class="inputs" type="text" name="Name" placeholder="Your Name">
+                <input class="inputs" type="email" name="Email" placeholder="Your E-mail">
+                <textarea class="inputs" name="Messege" placeholder="Leave Your Messege"></textarea>
+                <button type="submit" class="btn">Submit</button>
+                <span id="msg"></span>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- -------------Copy Right --------------->
+<div class="copy-right">
+    <p>copy &copy; right saved. 2024<span>❤️</span>made with salah abdel jayed.</p>
+</div>
+
+<!-- ------------ Back To Top ----------- -->
+<span id="up"><img src="img/icons/up.png" alt=""></span>
+
+<script src="./Js/jquery-3.6.0.min.js"></script>
+<script src="./Js/style.js"></script>
+<script src="./Js/wow.min.js"></script>
+<script>new WOW().init();</script>
+
+    <script>
+        $(document).ready(function() {
+        const scroll = 300;
+
+$(window).scroll(function() {
+    $(this).scrollTop();
+
+        if($(window).scrollTop() >= scroll) {
+            $('#up').show(1000);
+            $('#up').click(function() {
+                $(window).scrollTop(0);
+            })
+        }else {
+            $('#up').fadeOut(500);
+        }
+    });
+});
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwYWHJSMV2BVFbB1f9543vxfP6q8Lyo6FZMMIERVYQH_TcrWYsPTjlcQcAHwuWjs2yJ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg') 
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                if(form !== ''){
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset();
+                }
+                else{
+                    msg.innerHTML = "Please fill in the form"
+                }
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
