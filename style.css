@@ -1024,13 +1024,180 @@ button:hover .button-text {
         color: #ffffffba;
     }
 };
-/* Iphone 14 */
-@media(min-width:375px) and (max-width:431px){
+@media (max-width: 430px) {
+    #nav-icon{
+        display: block;
+        cursor: pointer;
+    }
+    #up {
+        bottom: 51px;
+        right: 2rem;
+    }
+    .header .logo a {
+        margin: 0 33px;
+    }
+    #close {
+        display: block;
+        width: 25px;
+        background-color: #fff;
+        border-radius: 50%;
+        transform: translate(13px, 27px);
+        
+    }
+    .settings .settings-box .settings-icon img {
+        width: 15px;
+    }
+    .settings .settings-box .settings-icon {
+        right: -24px;
+        top: 23pc;
+    }
     .settings .settings-box {
         width: 34%;
-        top: 0;
-        left: -200px;
+        left: -133px;
     }
+    h4{
+        font-size: 14px;
+    }
+    .settings-content .color-option .color-links li {
+        width: 21px;
+        height: 16px;
+    }
+    .settings-box .mood #light,
+    .settings-box .mood #dark {
+        width: 81px;
+        margin-left: 21px;
+    }
+    .header .links.open{
+        right: 0;
+    }
+    .header .links {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -210px;
+        width: 31%;
+        height: 100%;
+        background-color: rgb(0 1 2 /20%);
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        transition: .4s ease-in-out;
+        z-index: 9;
+    }
+    .header .links li {
+        transform: translate(13px, 104px);
+        margin-bottom: 47px;
+    }
+    .header .links a {
+        padding: 4px;
+        font-size: 13px;
+    }
+
+    .landing-page {
+        flex-direction: column;
+        padding-top: 75px;
+    }
+    .landing-page .text {
+        z-index: 1;
+        width: 91%;
+        transform: translate(27px, 51px);
+        
+    }
+    .landing-page .text h5 {
+        font-size: 17px;
+    }
+    .landing-page .text h1 {
+        font-size: 31px;
+    }
+    .landing-page .text h1 span {
+        font-size: 33px;
+    }
+    .landing-page .text p {
+        font-size: 13px;
+    }
+    .landing-page .img,
+    .landing-page .img img{
+        width: 100%;
+    }
+    button {
+        transform: translatex(3pc);
+    }
+    .about {
+        /* padding: 45px 30px 0 30px; */
+        margin-top: 50px;
+    }
+    .about .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 27px 0 279px 0;
+    }
+    .about .content .about-img {
+        width: 71%;
+    }
+    .about .content .about-img img{
+        width: 100%;
+    }
+    .about .content .about-text {
+        width: 100%;
+        margin-top: 1pc;
+    }
+    .about-img .tab-content {
+        transform: translate(37px, 38pc);
+        width: 89%;
+    }
+    .about-text .tab-title .tab-links {
+        padding: 0 13px;
+    }
+    .about-text .tab-title .tab-links::after {
+        left: 17px;
+    }
+    .services {
+        padding: 57px 0;
+        margin-top: 125px;
+    }
+    .services .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1pc;
+        width: 97%;
+    }
+    .services .content .my-services {
+        width: 69%;
+        margin-right: 0;
+    }
+    .contact {
+        padding: 100px 0 11px 0;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center
+    }
+    .container .left {
+        width: 74%;
+    }
+    .container .left p {
+        font-size: 16px;
+        margin-bottom: 21px;
+    }
+    .left .social-icon {
+        margin-bottom: 45px;
+    }
+    .container .right {
+        width: 91%;
+        margin-top: 2pc;
+    }
+    .container .right form .btn {
+        transform: translate(-6pc, -2pc);
+    }
+    form #msg {
+        bottom: 0;
+        right: 4pc;
+        font-size: 17px;
+    }
+    .copy-right p {
+        font-size: 7px;
+    }
+
 };
 
 
